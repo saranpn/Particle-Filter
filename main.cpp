@@ -24,8 +24,7 @@ int main()
 
     //Iterating 50 times over the set of particles
     int steps = 50;
-    for (int t = 0; t < steps; t++) {
-
+    for (int t = 0; t < steps; t++) 
         //Move the robot and sense the environment afterwards
         myrobot = myrobot.move(0.1, 5.0);
         z = myrobot.sense();
